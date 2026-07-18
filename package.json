@@ -1,7 +1,7 @@
 {
   "homepage": "https://github.com/Ricky-3510/Rct-first.git",
   "name": "rct_prj",
-  "private": true,
+"private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

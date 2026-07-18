@@ -1,6 +1,6 @@
 import './App.css'
 import Navbar from './Page/Navbar'
-import { Routes,Route, Form } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import About from './component/About'
 import Home from './component/Home'
 import Contact from './component/Contact'
@@ -20,14 +20,11 @@ return (
 {/* <Title></Title> */}
  <Navbar></Navbar>
 <Routes>
-  <Route path='/' element={<Home/>}/>
-    <Route path='About' element={<About/>}/>
-        <Route path='Contact' element={<Contact/>}/>
-                <Route path='LogIn' element={<LogIn/>}/> 
-
-
-
-</Routes> 
+  <Route path='/' element={<Home />} />
+  <Route path='/About' element={<About />} />
+  <Route path='/Contact' element={<Contact />} />
+  <Route path='/LogIn' element={<LogIn />} />
+</Routes>
 
 
    </div>
